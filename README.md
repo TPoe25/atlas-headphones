@@ -1,0 +1,1 @@
+This is about using a figma file and creating a custom index file from scratch.
