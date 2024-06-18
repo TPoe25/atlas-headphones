@@ -1,1 +1,3 @@
 ...
+buiilding a website from scrate css and html
+will update once finished
