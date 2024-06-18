@@ -27,30 +27,30 @@ body {
 
 
 .menu {
-    position: absolute;
-    top: 9.24px;
-    left: 745.39px;
-    width: 255px;
+    width: 100%;
+    position: relative;
     height: 15px;
-    z-index: 1;
-}
-
-.what_we_do, .our_results, .contact_us {
-    position: absolute;
-    top: calc(50% - 7.5px);
-}
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Source Sans Pro';
+    }
 
 .what_we_do {
+    position: absolute;
+    top: calc(50% - 7.5px);
     left: 0%;
 }
-
 .our_results {
+    position: absolute;
+    top: calc(50% - 7.5px);
     left: 40%;
 }
-
 .contact_us {
+    position: absolute;
+    top: calc(50% - 7.5px);
     left: 78.43%;
-
 }
 
 .logo {
