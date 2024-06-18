@@ -1,0 +1,42 @@
+/* FONTS */
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('/assets/fonts/SourceSansPro-Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('/assets/fonts/SourceSansPro-BlackIt.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('/assets/fonts/SourceSansPro-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('/assets/fonts/SourceSansPro-BoldIt.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SpinCycle';
+  src: url('/assets/fonts/spincycle_ot.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HolbertonGlyphs';
+  src: url('/assets/holberton_school-icon/fonts/holberton_school-icon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
