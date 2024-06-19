@@ -228,6 +228,18 @@ header {
 
   }
 
+  .background-image-2 {
+    background-image: url('assets/images/headphones_hero_2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 900px;
+  }
+
+  .our-results-container {
+    color: white;
+  }
+
   .section-contact-us {
 
   }
