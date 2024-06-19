@@ -1,0 +1,122 @@
+.contact-us {
+    position: absolute;
+    top: calc(50% - 186.5px);
+    left: 28.06%;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+.name {
+    position: absolute;
+    top: calc(50% - 14.5px);
+    left: 0%;
+    font-weight: 600;
+}
+.rectangle {
+    position: absolute;
+    height: 3.45%;
+    width: 100%;
+    top: 96.55%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #071629;
+    opacity: 0.17;
+    mix-blend-mode: normal;
+}
+.input-1 {
+    position: absolute;
+    height: 7.77%;
+    width: 100%;
+    top: 25.74%;
+    right: 0%;
+    bottom: 66.49%;
+    left: 0%;
+    overflow: hidden;
+}
+.input-2 {
+    position: absolute;
+    height: 7.77%;
+    width: 100%;
+    top: 45.58%;
+    right: 0%;
+    bottom: 46.65%;
+    left: 0%;
+    overflow: hidden;
+}
+.input-3 {
+    position: absolute;
+    height: 7.77%;
+    width: 100%;
+    top: 65.42%;
+    right: 0%;
+    bottom: 26.81%;
+    left: 0%;
+    overflow: hidden;
+}
+.button-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 22px;
+    background-color: #ff6565;
+}
+.call-to-action {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: 19.14%;
+}
+.button {
+    position: absolute;
+    height: 11.8%;
+    width: 48.36%;
+    top: 88.2%;
+    right: 25.97%;
+    bottom: 0%;
+    left: 25.67%;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-family: 'Source Sans Pro';
+}
+.part-4-contact-us {
+    width: 100%;
+    position: relative;
+    height: 373px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #071629;
+    font-family: SourceSansPro;
+}
+
+<section class="section-contact-us">     
+       <div class="contact-form">
+        <h2 class="contact-heading">
+          Contact us
+        </h2>
+        <!-- Each label is aligned left on the text input field, input appears as gray underline on bottom border of div -->
+        <div class="contact-form-label">
+          <p class="contact-form-label-text">
+          Name
+          </p>
+        </div>
+        <div class="contact-form-label">
+          <p class="contact-form-label-text">
+          Email
+          </p>
+        </div>
+        <div class="contact-form-label">
+          <p class="contact-form-label-text">
+          Your message
+          </p>
+        </div>
+        <button class="contact-button">
+          CALL TO ACTION
+        </button>
+       </div>
+    </section>
