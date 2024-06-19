@@ -47,6 +47,11 @@ body {
   font-style: normal;
 }
 
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .background-image {
   background-image: url('assets/images/headphones_hero_1.jpg');
   background-size:cover;
@@ -54,6 +59,7 @@ body {
   background-position: center center;
   min-height: 900px;
 }
+
 header {
   display:flex;
   flex-direction: column;
@@ -64,10 +70,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
-  /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;*/
 }
 
 .header-icon {
@@ -75,24 +77,15 @@ header {
   align-items: center;
   margin-left: 10%;
   transform: scale(0.5);
-  /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;*/
 }
 
 .page-navigation {
   display: flex;
   align-items: center;
-  align-items: center;
   justify-content: space-around;
   margin-right: 10%;
   color: white;
   font-size: 12px;
-  /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;*/
 }
 
 .menu-link {
@@ -101,10 +94,6 @@ header {
   padding: 0 25px;
   color: white;
   text-decoration: none;
-  /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;*/
 }
 
 .menu-link:hover {
@@ -121,10 +110,6 @@ header {
   max-height: 313px;
   position: relative;
   margin-top: 372px;
-    /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;*/
 }
 
 .main-heading {
@@ -148,6 +133,7 @@ header {
   height: 44px;
   width: 162px;
   color: white;
+  font-size: 14px;
   font-weight: bold;
   border-style: none;
   cursor: pointer;
@@ -156,3 +142,63 @@ header {
 .main-button:hover {
   opacity: 0.8;
 }
+
+/* What We Do Section */
+
+.section-what-we-do {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.what-heading {
+}
+
+.what-paragraph {
+}
+
+.what-cards-container {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.what-card {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 58px;
+}
+
+.what-card-icon {
+  color:#FF6565;
+  width: 94px;
+  height: 65px;
+  font-size: 5rem;
+}
+
+.what-card-heading {
+
+}
+
+.what-card-text {
+  max-width: 200px;
+}
+  /* just for visualization
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;*/
+
+  .section-our-results {
+
+  }
+
+  .section-contact-us {
+
+  }
+
+  footer {
+
+  }
