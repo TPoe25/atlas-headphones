@@ -15,6 +15,13 @@
 
 @font-face {
   font-family: 'SourceSansPro';
+  src: url('assets/fonts/SSourceSansPro-Semibold.otf') format('opentype');
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
   src: url('assets/fonts/SourceSansPro-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
@@ -47,6 +54,11 @@ body {
   font-style: normal;
 }
 
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .background-image {
   background-image: url('assets/images/headphones_hero_1.jpg');
   background-size:cover;
@@ -54,6 +66,7 @@ body {
   background-position: center center;
   min-height: 900px;
 }
+
 header {
   display:flex;
   flex-direction: column;
@@ -64,10 +77,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
-  /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;*/
 }
 
 .header-icon {
@@ -75,24 +84,15 @@ header {
   align-items: center;
   margin-left: 10%;
   transform: scale(0.5);
-  /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;*/
 }
 
 .page-navigation {
   display: flex;
   align-items: center;
-  align-items: center;
   justify-content: space-around;
   margin-right: 10%;
   color: white;
   font-size: 12px;
-  /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;*/
 }
 
 .menu-link {
@@ -101,10 +101,6 @@ header {
   padding: 0 25px;
   color: white;
   text-decoration: none;
-  /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;*/
 }
 
 .menu-link:hover {
@@ -121,15 +117,12 @@ header {
   max-height: 313px;
   position: relative;
   margin-top: 372px;
-    /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;*/
 }
 
 .main-heading {
   font-size: 32px;
   font-weight: bold;
+  margin-bottom: -10px;
 }
 
 .main-text {
@@ -140,6 +133,8 @@ header {
 .main-paragraph {
   font-size: 16px;
   font-weight: normal;
+  line-height: 1.5;
+  margin-top: 65px;
 }
 
 .main-button {
@@ -148,11 +143,107 @@ header {
   height: 44px;
   width: 162px;
   color: white;
+  font-size: 14px;
   font-weight: bold;
   border-style: none;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .main-button:hover {
   opacity: 0.8;
 }
+
+/* What We Do Section */
+
+.section-what-we-do {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  padding-top: 80px;
+}
+
+.what-heading-container {
+  height: 184px;
+  width: 637px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.what-heading {
+  font-size: 32px;
+  font-weight:bolder;
+  margin-bottom: 40px;
+  /* bolder is using Semibold font */
+}
+
+.what-paragraph {
+  font-size: 16px;
+}
+
+.what-cards-container {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.what-card {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 58px;
+}
+
+.what-card-icon {
+  color:#FF6565;
+  width: 94px;
+  height: 65px;
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.what-card-heading {
+  font-size: 18px;
+  font-weight: bolder;
+  /* bolder is using Semibold font */
+
+}
+
+.what-card-text {
+  font-size: 14px;
+  font-weight: normal;
+  max-width: 200px;
+  line-height: 2;
+  margin-top: -5px;
+}
+  /* just for visualization
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;*/
+
+  .section-our-results {
+
+  }
+
+  .background-image-2 {
+    background-image: url('assets/images/headphones_hero_2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 900px;
+  }
+
+  .our-results-container {
+    color: white;
+  }
+
+  .section-contact-us {
+
+  }
+
+  footer {
+
+  }
