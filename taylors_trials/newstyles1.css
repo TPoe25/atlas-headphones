@@ -10,7 +10,6 @@
     text-align: left;
     font-size: 14px;
     color: #071629;
-    position: center;
 }
 
 .contact-heading {
@@ -21,7 +20,6 @@
     color: #071629;
 }
 
-/* Form Labels */
 .contact-form-label {
     margin: 20px 0;
     width: 100%;
@@ -33,7 +31,6 @@
     color: #071629;
 }
 
-/* Form Inputs */
 .contact-input {
     width: 100%;
     height: 30px;
@@ -50,7 +47,6 @@
     height: 100px;
 }
 
-/* Button Styling */
 .contact-button {
     position: relative;
     height: 40px;
@@ -84,7 +80,6 @@
     font-weight: 600;
 }
 
-/* Hover effect */
 .contact-button:hover .button-background {
     opacity: 0.8;
     transition: opacity 0.3s ease;
