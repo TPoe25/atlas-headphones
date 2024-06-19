@@ -1,11 +1,11 @@
 /* FONTS */
 @font-face {
   font-family: 'SourceSansPro';
-  src: url('assets/fonts/SourceSansPro-Black.otf') format('opentype');
+  src: url('assets/fonts/SourceSansPro-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
-/*
+
 @font-face {
   font-family: 'SourceSansPro';
   src: url('assets/fonts/SourceSansPro-BlackIt.otf') format('opentype');
@@ -26,7 +26,7 @@
   font-weight: bold;
   font-style: italic;
 }
-*/
+
 @font-face {
   font-family: 'SpinCycle';
   src: url('assets/fonts/spincycle_ot.otf') format('opentype');
@@ -54,16 +54,20 @@ body {
   background-position: center center;
   min-height: 900px;
 }
-
+header {
+  display:flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
 .header-container {
   display:flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
-    /* just for visualization
-    border-width: 2px;
-    border-style: solid;
-    border-color: red;*/
+  /* just for visualization
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;*/
 }
 
 .header-icon {
@@ -101,4 +105,54 @@ body {
   border-width: 2px;
   border-style: solid;
   border-color: white;*/
+}
+
+.menu-link:hover {
+  color:#FF6565;
+}
+
+/* Main Section */
+
+.main {
+  align-self: center;
+  text-align: center;
+  color: white;
+  max-width: 637px;
+  max-height: 313px;
+  position: relative;
+  margin-top: 372px;
+    /* just for visualization
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;*/
+}
+
+.main-heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.main-paragraph {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.main-button {
+  background-color: #FF6565;
+  border-radius: 22px;
+  height: 44px;
+  width: 162px;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+}
+
+.main-button:hover {
+  opacity: 0.8;
 }
