@@ -15,6 +15,13 @@
 
 @font-face {
   font-family: 'SourceSansPro';
+  src: url('assets/fonts/SSourceSansPro-Semibold.otf') format('opentype');
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
   src: url('assets/fonts/SourceSansPro-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
@@ -115,6 +122,7 @@ header {
 .main-heading {
   font-size: 32px;
   font-weight: bold;
+  margin-bottom: -10px;
 }
 
 .main-text {
@@ -125,6 +133,8 @@ header {
 .main-paragraph {
   font-size: 16px;
   font-weight: normal;
+  line-height: 1.5;
+  margin-top: 65px;
 }
 
 .main-button {
@@ -137,6 +147,7 @@ header {
   font-weight: bold;
   border-style: none;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .main-button:hover {
@@ -149,12 +160,26 @@ header {
   display:flex;
   flex-direction: column;
   align-items: center;
+  height: 600px;
+  padding-top: 80px;
+}
+
+.what-heading-container {
+  height: 184px;
+  width: 637px;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .what-heading {
+  font-size: 32px;
+  font-weight:bolder;
+  margin-bottom: 40px;
+  /* bolder is using Semibold font */
 }
 
 .what-paragraph {
+  font-size: 16px;
 }
 
 .what-cards-container {
@@ -177,14 +202,22 @@ header {
   width: 94px;
   height: 65px;
   font-size: 5rem;
+  margin-bottom: 10px;
 }
 
 .what-card-heading {
+  font-size: 18px;
+  font-weight: bolder;
+  /* bolder is using Semibold font */
 
 }
 
 .what-card-text {
+  font-size: 14px;
+  font-weight: normal;
   max-width: 200px;
+  line-height: 2;
+  margin-top: -5px;
 }
   /* just for visualization
   border-width: 2px;
