@@ -2,56 +2,54 @@
 @font-face {
   font-family: 'SourceSansPro';
   src: url('assets/fonts/SourceSansPro-Regular.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400; /* Normal weight */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SourceSansPro';
   src: url('assets/fonts/SourceSansPro-BlackIt.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 900; /* Black weight */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'SourceSansPro';
-  src: url('assets/fonts/SSourceSansPro-Semibold.otf') format('opentype');
-  font-weight: bold;
-  font-style: italic;
+  src: url('assets/fonts/SourceSansPro-Semibold.otf') format('opentype');
+  font-weight: 600; /* Semi-bold weight */
+  font-style: normal;
 }
 
 @font-face {
   font-family: 'SourceSansPro';
   src: url('assets/fonts/SourceSansPro-Bold.otf') format('opentype');
-  font-weight: bolder;
+  font-weight: 700; /* Bold weight */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SourceSansPro';
   src: url('assets/fonts/SourceSansPro-BoldIt.otf') format('opentype');
-  font-weight: bolder;
+  font-weight: 700; /* Bold weight */
   font-style: italic;
 }
 
 @font-face {
   font-family: 'SpinCycle';
   src: url('assets/fonts/spincycle_ot.otf') format('opentype');
-  font-weight: normal;
+  font-weight: 400; /* Normal weight */
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HolbertonGlyphs';
   src: url('assets/holberton_school-icon/fonts/holberton_school-icon.ttf') format('truetype');
-  font-weight: normal;
+  font-weight: 400; /* Normal weight */
   font-style: normal;
 }
 
 body {
   font-family: SourceSansPro;
-  font-weight: normal;
-  font-style: normal;
 }
 
 .content {
@@ -121,18 +119,18 @@ header {
 
 .main-heading {
   font-size: 32px;
-  font-weight: bolder;
+  font-weight: 700; /*Bold*/
   margin-bottom: -10px;
 }
 
 .main-text {
   font-size: 16px;
-  font-weight: bolder;
+  font-weight: 700; /*Bold*/
 }
 
 .main-paragraph {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 400; /*normal*/
   line-height: 1.5;
   margin-top: 65px;
 }
@@ -144,7 +142,7 @@ header {
   width: 162px;
   color: white;
   font-size: 14px;
-  font-weight: bolder;
+  font-weight: 700; /*Bold*/
   border-style: none;
   cursor: pointer;
   margin-top: 10px;
@@ -173,7 +171,7 @@ header {
 
 .what-heading {
   font-size: 32px;
-  font-weight:semibold;
+  font-weight: 600; /*Semi-bold*/
   margin-bottom: 40px;
 }
 
@@ -206,83 +204,77 @@ header {
 
 .what-card-heading {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600; /*Semi-bold*/
 }
 
 .what-card-text {
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400; /*normal*/
   max-width: 200px;
   line-height: 2;
   margin-top: -5px;
 }
-  .section-our-results {
-    display: flex;
-    align-items: center;
-  }
 
-  .background-image-2 {
-    background-image: url('assets/images/headphones_hero_2.jpg');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 650px;
-  }
+.section-our-results {
+  display: flex;
+  align-items: center;
+}
 
-  .our-results-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    /* just for visualization*/
-    border-width: 2px;
-    border-style: solid;
-    border-color: orange;
-  }
+.background-image-2 {
+  background-image: url('assets/images/headphones_hero_2.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 650px;
+}
 
-  .our-heading {
-    font-size: 32px;
-    font-weight: bold;
-  /* just for visualization*/
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;
-  }
+.our-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
 
-  .our-paragraph {
-  /* just for visualization*/
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;
-  }
+.our-heading {
+  font-size: 32px;
+  font-weight: 600; /*Semi-bold*/
+}
 
-  .our-cards-container {
-  /* just for visualization*/
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;
-  }
+.our-paragraph {
+width: 637px;
+font-size: 16px;
+font-weight: 400; /*normal*/
+text-align: center;
 
-  .our-card {
-  /* just for visualization*/
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;
-  }
+}
 
-  .our-card-heading {
-  /* just for visualization*/
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;
-  }
+.our-cards-container {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
 
-  .our-card-paragraph {
-  /* just for visualization*/
-  border-width: 2px;
-  border-style: solid;
-  border-color: white;
-  }
+.our-card {
+padding: 10px;
+}
+
+.our-card-heading {
+background-image: url('assets/images/pentagone.png');
+background-size:contain;
+background-repeat: no-repeat;
+background-position: center center;
+padding: 57px;
+text-align: center;
+font-size: 46px;
+font-weight: 700; /*Bold*/
+}
+
+.our-card-paragraph {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400; /*normal*/
+  margin-top: -99px;
+}
 
 
 
@@ -297,7 +289,7 @@ header {
 .contact-heading {
   text-align: center;
   font-size: 32px;
-  font-weight: bolder;
+  font-weight: 700; /*Bold*/
   color: #071629;
   margin-bottom: 56px;
 }
@@ -305,14 +297,14 @@ header {
 .contact-form-label {
   text-align: left;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400; /*normal*/
   color: #071629;
   border-bottom: 2px solid rgba(151, 151, 151, 0.3);
   margin-bottom: 45px;
 }
 
 .contact-form-label-text {
-  font-weight: bold;
+  font-weight: 600; /*Semi-bold*/
   color: #071629;
 }
 
@@ -335,19 +327,13 @@ header {
   width: 162px;
   color: white;
   font-size: 14px;
-  font-weight: bolder;
+  font-weight: 700; /*Bold*/
   border-style: none;
   cursor: pointer;
 }
 
 .contact-button:hover {
   opacity: 0.8;
-}
-
-.contact-button:hover .button-background {
-  opacity: 0.8;
-
-
 }
 
 /* Footer styles */
@@ -413,6 +399,10 @@ footer {
   left: 50%;
   transform: translateX(-50%);
   opacity: 0.35;
-  mix-blend-mode: normal;
   display: inline-block;
 }
+
+/* just for visualization
+border-width: 2px;
+border-style: solid;
+border-color: white;*/
