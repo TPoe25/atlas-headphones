@@ -45,6 +45,9 @@ Have a fully functional web page that looks the same as the designer's file.
 - **File:** `index.html`, `styles.css`, `tablet.css`, `mobile.css`
 - **Assets:** contains images, icons, and fonts
 
+# Website Link
+[headphones website](https://tpoe25.github.io/atlas-headphones/)
+
 **Authors**
 - [Taylor Poe](https://github.com/TPoe25)
 - [Jesse Brumley](https://github.com/jessebrumley)
