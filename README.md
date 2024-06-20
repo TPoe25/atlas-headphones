@@ -49,5 +49,5 @@ Have a fully functional web page that looks the same as the designer's file.
 [headphones website](https://tpoe25.github.io/atlas-headphones/)
 
 **Authors**
-- [Taylor Poe](https://github.com/TPoe25)
+- [Taylor Poe](https://github.com/TPoe25/atlas-headphones/)
 - [Jesse Brumley](https://github.com/jessebrumley)
