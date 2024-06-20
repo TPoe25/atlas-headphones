@@ -16,21 +16,21 @@
 @font-face {
   font-family: 'SourceSansPro';
   src: url('assets/fonts/SSourceSansPro-Semibold.otf') format('opentype');
-  font-weight: bolder;
+  font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'SourceSansPro';
   src: url('assets/fonts/SourceSansPro-Bold.otf') format('opentype');
-  font-weight: bold;
+  font-weight: bolder;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'SourceSansPro';
   src: url('assets/fonts/SourceSansPro-BoldIt.otf') format('opentype');
-  font-weight: bold;
+  font-weight: bolder;
   font-style: italic;
 }
 
@@ -121,13 +121,13 @@ header {
 
 .main-heading {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: bolder;
   margin-bottom: -10px;
 }
 
 .main-text {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .main-paragraph {
@@ -144,7 +144,7 @@ header {
   width: 162px;
   color: white;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: bolder;
   border-style: none;
   cursor: pointer;
   margin-top: 10px;
@@ -173,9 +173,8 @@ header {
 
 .what-heading {
   font-size: 32px;
-  font-weight:bolder;
+  font-weight:semibold;
   margin-bottom: 40px;
-  /* bolder is using Semibold font */
 }
 
 .what-paragraph {
@@ -207,9 +206,7 @@ header {
 
 .what-card-heading {
   font-size: 18px;
-  font-weight: bolder;
-  /* bolder is using Semibold font */
-
+  font-weight: bold;
 }
 
 .what-card-text {
@@ -219,13 +216,9 @@ header {
   line-height: 2;
   margin-top: -5px;
 }
-  /* just for visualization
-  border-width: 2px;
-  border-style: solid;
-  border-color: red;*/
-
   .section-our-results {
-
+    display: flex;
+    align-items: center;
   }
 
   .background-image-2 {
@@ -237,8 +230,61 @@ header {
   }
 
   .our-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
+    /* just for visualization*/
+    border-width: 2px;
+    border-style: solid;
+    border-color: orange;
   }
+
+  .our-heading {
+    font-size: 32px;
+    font-weight: bold;
+  /* just for visualization*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  }
+
+  .our-paragraph {
+  /* just for visualization*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  }
+
+  .our-cards-container {
+  /* just for visualization*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  }
+
+  .our-card {
+  /* just for visualization*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+  }
+
+  .our-card-heading {
+  /* just for visualization*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  }
+
+  .our-card-paragraph {
+  /* just for visualization*/
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  }
+
+
 
 /* Contact Us Section */
 .section-contact-us {
@@ -251,7 +297,7 @@ header {
 .contact-heading {
   text-align: center;
   font-size: 32px;
-  font-weight: bold;
+  font-weight: bolder;
   color: #071629;
   margin-bottom: 56px;
 }
@@ -266,8 +312,7 @@ header {
 }
 
 .contact-form-label-text {
-  font-weight: bolder;
-  /* bolder is using semibold font */
+  font-weight: bold;
   color: #071629;
 }
 
@@ -290,7 +335,7 @@ header {
   width: 162px;
   color: white;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: bolder;
   border-style: none;
   cursor: pointer;
 }
