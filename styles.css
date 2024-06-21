@@ -80,7 +80,6 @@ header {
 .header-icon {
   display: flex;
   align-items: center;
-  margin-left: 10%;
   transform: scale(0.5);
 }
 
@@ -392,7 +391,7 @@ footer {
 
 .social-icon {
   font-family: ''; /* Replace with your icon font family */
-  font-size: 24px;
+  font-size: 30px;
   color: #fff;
   position: 'flex-center';
   display: flex;
